@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "jobportal-321117",
+  "private_key_id": "9f1fbaae8a02c18056ad2ea32ea5bc700b2b7571",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9MQHxlNFl1q5G\nshYahvyk+uKPs8a0iCX1E517LGSKW4FQ6bn1uqVC6xh2h7s5gZDzSkzLkc4sUXQl\n0M7lIqd+TB6IE2okV2uJZIolOnW9pKsk2pu7gb6ZFoAs9fZ+mHM3g+bwhSgoUnmT\n1lrKHm4AEZzhhhLzxWSB6QHFFN0MpDMtV6WEn6AK3NQ3cWYS3SkWaBhFjX0/eLl4\nlyUe9n4PTBWtoRQcYf6KGewcIFR7D3h2KZ/Vna/eXkZy9D50GGgVi6WNY30uhHUM\nfFRcIZJmsmZyqiS8d0Yhv3O5UPjqcIvMvA27TqNqpL4/x9ZN4TSGG8Rz0qFvBh/a\nOTilFZi3AgMBAAECggEALK/+vYlhTKTA1YILJojr9Cwuh7L3JH1kOddAQ2/g761d\nhjcu7ZQApSXSyWyWFKc+DblnGk5+XImA3c3MkOL2nSZtr8amM59Sj0loOBLu7LSQ\nmEvqrQegdZiS/gu7BXwM+vf0/Kr3KU8R2JGxMDyvzuRaIgsBPwNJEkZvXJXpAKr/\n289vMwz6WI6FZSQvSzYPZ272gonEzHGEeUIIQ+OBlFzxsBWoiknzhhtgWb0x+tJ/\n9VBbcR8mgTKOLqFGPxaUEr1zokNt0Qv2GeiHxauJSNQrUo3JEeQbeYsT8+A5FVZV\nd8PrhTDJmzl4mHGWWTjDjLJ/Onr1oR/uCqk6OgcxgQKBgQDyCRX3NtfvZVhlLe56\nE54sPbgYa+43hheW1UujR9MSlCEKMc72yMI1fWwQrcakeNX3JDQqHto2mXOhbiSj\nuNxEwbJsfGt+n2Suar95Sza4DrAqOSUWe+0o9y2N3QK7r/wOY6x2qpvsZUYSTb9z\nLAGzgmZQEvmiQlcJcKncdbGBWQKBgQDIG2d4BRQR7XlavBcGM9ATxpblf2Odu6gI\nZYkiONhyoKIlmIpl0+nozO3Ij1VkdxqAQ8wreCSWgG8WP23BF6H03ldU2pvplOp5\nI62+6n7p4goaxiLUT2dc12CXbJNZlLFvBWqO2CKHMcWJpeyfz7rHLOLmmlyiGaxS\nsrvdQX4YjwKBgQCZ5y8hgK00W+QmiltvItRcW26ZkN/sTIbpcX3kOMK9uJV9zwhE\noonjy3oQ7P84DGI6Abpt4iptt4vwZYJE3UKrMePL2h3caWxzAAv7C9milixs3ON5\ndZnrh6le4N9hC1miqLy8xGXbntY8w1Vu3dfDFrMKTdaQ19BSf2Jzfh8+GQKBgGaj\nX8P43t1/L+KxXSHqS40JLHbUi3TpPvvnkJpEDAlniSO9hSdLtcuZ6VEY69TXHnmx\nzLRzMFkd0VzY9eO3ynN94897PcNmhYnTGhg10RkHvuUSweSiQcMmGb4xi7bEBOqM\nHabdB4DOr6K1v5QNCaGFzXA4ttDSWEgmsyN+pz3TAoGBAKD47hEh/ytr4Efht/PG\nu8rzjxETTUcxO31hmIpVAb+ZYXHOmo7BTSm7SE5WFN788m8E90nRwgtpfxn6+px6\nfN/HcWiALJTYAY8hL3CNTU+KoPfx3C8es1g6u6rqJI35nSdy5QzjvaQpmctksZh5\nfBVb1azbgpbvxxw6bhqcFmkJ\n-----END PRIVATE KEY-----\n",
+  "client_email": "mayur-267@jobportal-321117.iam.gserviceaccount.com",
+  "client_id": "117213016283772120306",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mayur-267%40jobportal-321117.iam.gserviceaccount.com"
+}
