@@ -56,12 +56,7 @@ class Candidate(Resource):
             # return ({"response":"An error occurred"})
     @cross_origin()
     def post(self):
-        """
-        when requested url http://127.0.0.1:5000/User?Userid=112&Username=any
-        or any data.
-        this function will add new user details to google sheet database.
-        and return the responce.
-        """
+        
         user_data_parse = reqparse.RequestParser()
 
         user_data_parse.add_argument("userid", type=str, help='provide userid')

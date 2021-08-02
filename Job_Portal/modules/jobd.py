@@ -26,12 +26,12 @@ class job_description(Resource):
          all_rows = sheet1.get_all_records()
          user_data_parse = reqparse.RequestParser()
 
-         user_data_parse.add_argument("jid", type=str, help="provide jid")
+         user_data_parse.add_argument("job_category", type=str, help="provide job_category")
          #user_data_parse.add_argument("Email", type=str, help="provide Email")
 
         # storing request json((body) data in args
          args = user_data_parse.parse_args()
-         jid = args['jid']
+         job_category = args['job_category']
 
          try:
 
@@ -39,10 +39,10 @@ class job_description(Resource):
                 # converting all data to dataframe
                 google_sheet_all_records = pd.DataFrame.from_dict(all_rows)
 
-                if(jid != None):
-                    User_data = google_sheet_all_records.loc[google_sheet_all_records['jid'] == int(jid)]
+                if( job_category != None):
+                    User_data = google_sheet_all_records.loc[google_sheet_all_records['job_category'] == job_category]
                     resp=[]
-                    User_data_by_title = google_sheet_all_records.loc[google_sheet_all_records['jid'] == int(jid)]
+                    User_data_by_title = google_sheet_all_records.loc[google_sheet_all_records['job_category'] == job_category]
                     try:
                         resp.append(User_data.to_dict('records'))
                     except:
@@ -53,19 +53,14 @@ class job_description(Resource):
                   
                     return jsonify(resp)
                 else:
-                    return jsonify({"response": "jid invalid"})
+                    return jsonify({"response": "job_category invalid"})
          except Exception as e:
             return (e)
             # return ({"response":"An error occurred"})
 
     @cross_origin()
     def post(self):
-        """
-        when requested url http://127.0.0.1:5000/User?Userid=112&Username=any
-        or any data.
-        this function will add new user details to google sheet database.
-        and return the responce.
-        """
+        
         user_data_parse = reqparse.RequestParser()
 
         user_data_parse.add_argument("jid", required=True, type=str)
