@@ -6,5 +6,5 @@ then you get a link in terminal so this is your actual main link for this projec
 
 
 NOTE : To run Venv on your machine 
-for ubuntu :source venvs/bin/activate
+for ubuntu :source venvs/bin/activate<br>
 for windows : venv\Scripts\activate
